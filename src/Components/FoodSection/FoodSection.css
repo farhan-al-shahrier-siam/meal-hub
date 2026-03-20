@@ -1,0 +1,7 @@
+.food-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    max-width: 1240px;
+    margin: 100px auto;
+    gap: 20px;
+}

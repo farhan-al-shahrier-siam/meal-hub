@@ -1,0 +1,14 @@
+.food-card{
+    border: 4px solid purple;
+    border-radius: 20px;
+}
+.food-card img{
+    width: 100%;
+    border-radius: 20px;
+
+}
+
+.food-card h1{
+    padding: 4px;
+    text-align: center;
+}
