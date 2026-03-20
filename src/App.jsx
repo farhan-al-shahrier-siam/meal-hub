@@ -11,7 +11,7 @@ function App() {
         <>
             <Navbar></Navbar>
 
-            <Suspense>
+            <Suspense fallback={<h1>Loading....</h1>}>
                 <FoodSection foodDataPromise={foodDataPromise}></FoodSection>
             </Suspense>
         </>

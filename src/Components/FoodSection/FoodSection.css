@@ -1,7 +1,18 @@
 .food-container{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    display: flex;
     max-width: 1240px;
     margin: 100px auto;
     gap: 20px;
+}
+
+.food-container-left{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    width: 80%;
+}
+
+.food-container-right{
+    width: 20%;
+    text-align: center;
 }
