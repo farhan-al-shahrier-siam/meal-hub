@@ -7,7 +7,7 @@ const SingleFood = ({food, addToCart}) => {
         <div className='food-card'>
             <img src={food.strMealThumb} alt="" />
             <h1>{food.strMeal}</h1>
-            <div className='card-btn'>
+            <div className='card-btn all-btn'>
                 <button onClick={()=>{addToCart(food)}}>Add to cart</button>
             </div>
         </div>
